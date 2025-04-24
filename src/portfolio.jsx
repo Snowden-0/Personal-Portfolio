@@ -258,12 +258,12 @@ const Portfolio = () => {
                                 </motion.a>
                             </motion.div>
 
-                            {/* CTA Button - Enhanced */}
-                            <motion.div
+                                            {/* CTA Button - Enhanced */}
+                                            <motion.div
                                             initial={{ opacity: 0, y: 30 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{ delay: 1.4, duration: 0.6 }}
-                                        >
+                                            >
                                             <motion.a
                                                 href="/Resume.pdf" 
                                                 download
